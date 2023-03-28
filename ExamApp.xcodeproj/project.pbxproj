@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11FCC4E529D35F3E000790BC /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FCC4E429D35F3E000790BC /* AppSettings.swift */; };
 		8D592FA82140343700F12306 /* QuestionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D592FA72140343700F12306 /* QuestionGroup.swift */; };
 		8DC0672821405E1000402650 /* QuestionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0672721405E1000402650 /* QuestionStrategy.swift */; };
 		8DC0672A21405E8300402650 /* QuestionJSONStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0672921405E8300402650 /* QuestionJSONStrategy.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11FCC4E429D35F3E000790BC /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		8D592FA72140343700F12306 /* QuestionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroup.swift; sourceTree = "<group>"; };
 		8DC0672721405E1000402650 /* QuestionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStrategy.swift; sourceTree = "<group>"; };
 		8DC0672921405E8300402650 /* QuestionJSONStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionJSONStrategy.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				8DE57231213F8090006B06BD /* Question.swift */,
 				8D592FA72140343700F12306 /* QuestionGroup.swift */,
+				11FCC4E429D35F3E000790BC /* AppSettings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				8DC0672F21405F7600402650 /* QuestionXMLStrategy.swift in Sources */,
 				8DE5722B213F64F1006B06BD /* QuestionGroupTableViewController.swift in Sources */,
 				8DE5722E213F7CD8006B06BD /* QuestionsViewController.swift in Sources */,
+				11FCC4E529D35F3E000790BC /* AppSettings.swift in Sources */,
 				8DC0672821405E1000402650 /* QuestionStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
